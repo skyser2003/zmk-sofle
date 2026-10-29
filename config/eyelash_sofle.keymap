@@ -54,15 +54,6 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-    };
-
     macros {
         SHIFT_MCLK: SHIFT_MCLK {
             compatible = "zmk,behavior-macro";
