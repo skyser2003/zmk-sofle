@@ -43,6 +43,9 @@ images, and publish a release. The first version is `v0.1.0`; new release commit
 increment the latest version's patch number. Re-running a published commit
 preserves its existing release and assets.
 
+The first release includes the Q/S/Z typing-delay fix and Studio-remappable
+encoder directions.
+
 Use `eyelash-sofle-left.uf2` for the left half and `eyelash-sofle-right.uf2` for
 the right half. `settings-reset.uf2` is a recovery tool that clears saved settings
 and pairing. `SHA256SUMS` contains checksums for the images.
