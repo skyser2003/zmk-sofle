@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: MIT
+description: Route an encoder tap through a Studio-editable key position
+compatible: "zmk,behavior-sofle-encoder-key"
+include: one_param.yaml

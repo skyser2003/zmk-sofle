@@ -70,6 +70,9 @@
             , <&key_physical_attrs 100 100 1150  412       0     0     0>
             , <&key_physical_attrs 100 100 1250  400       0     0     0>
             , <&key_physical_attrs 100 100 1350  412       0     0     0>
+            // Studio-editable encoder CCW/CW positions, below the left thumb keys.
+            , <&key_physical_attrs 100 100  575  550       0     0     0>
+            , <&key_physical_attrs 100 100  700  550       0     0     0>
             ;
     };
 };
