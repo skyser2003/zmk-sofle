@@ -58,7 +58,7 @@
             , <&key_physical_attrs 100 100 1350  312       0     0     0>
             , <&key_physical_attrs 100 100 1450  350       0     0     0>
             , <&key_physical_attrs 100 100 1550  350       0     0     0>
-            , <&key_physical_attrs 100 100  650  338       0     0     0>
+            , <&key_physical_attrs 100 100  775  338       0     0     0>
             , <&key_physical_attrs 100 100  200  412       0     0     0>
             , <&key_physical_attrs 100 100  300  400       0     0     0>
             , <&key_physical_attrs 100 100  400  412       0     0     0>
@@ -70,9 +70,9 @@
             , <&key_physical_attrs 100 100 1150  412       0     0     0>
             , <&key_physical_attrs 100 100 1250  400       0     0     0>
             , <&key_physical_attrs 100 100 1350  412       0     0     0>
-            // Studio-editable encoder CCW/CW positions, below the left thumb keys.
-            , <&key_physical_attrs 100 100  575  550       0     0     0>
-            , <&key_physical_attrs 100 100  700  550       0     0     0>
+            // Studio-editable encoder CCW/CW positions flank the encoder push button.
+            , <&key_physical_attrs 100 100  675  338       0     0     0>
+            , <&key_physical_attrs 100 100  875  338       0     0     0>
             ;
     };
 };

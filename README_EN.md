@@ -6,8 +6,8 @@
 ## Update List
 
 - 2026/11/02
-  1. Encoder rotation is now remappable in standard ZMK Studio. Two virtual keys appear below the left thumb keys: counterclockwise on the left, clockwise on the right. The base defaults are volume down/up; other layers inherit these until remapped.
-  2. This follows the virtual-key approach in [gmk70_firmware](https://github.com/skyser2003/gmk70_firmware): each encoder step becomes an ordinary key press/release. Flash the updated left-half firmware, reconnect Studio, select a layer, edit either virtual key, and save. Existing physical key positions are preserved.
+  1. Encoder rotation is now remappable in standard ZMK Studio. Below the joystick, two virtual keys flank the encoder push button: counterclockwise on the left, push in the center, clockwise on the right. The base defaults are volume down/up; other layers inherit these until remapped.
+  2. This follows the virtual-key approach in [gmk70_firmware](https://github.com/skyser2003/gmk70_firmware): each encoder step becomes an ordinary key press/release. Flash the updated left-half firmware, reconnect Studio, select a layer, edit either virtual key, and save. Existing physical key indices are preserved.
 
 - 2026/10/29
   1. Removed the Q/S/Z soft-off combo to avoid delaying these keys during simultaneous input, such as Korean Semo-e. Flash the updated left-half firmware for this change.

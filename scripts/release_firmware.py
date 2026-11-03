@@ -90,9 +90,9 @@ def package(source: Path, destination: Path, commit: str, tag: str, repository: 
         "- `settings-reset.uf2`: recovery image that clears saved settings and pairing. "
         "Use the left/right images for normal updates.\n"
         "- `SHA256SUMS`: SHA-256 checksums for all three images.\n\n"
-        "Flash each image to its matching half over USB. In Studio, the two keys below "
-        "the left thumb keys control counterclockwise (left) and clockwise (right) "
-        "rotation; their defaults are volume down/up.\n\n"
+        "Flash each image to its matching half over USB. In Studio, the encoder controls "
+        "below the joystick are counterclockwise (left), push (center), and clockwise "
+        "(right); rotation defaults to volume down/up.\n\n"
         f"[Build and test results]({run_url}).\n"
     )
 
