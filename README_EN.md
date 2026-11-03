@@ -35,6 +35,22 @@ For 3D printed model files or any issues and malfunctions with the keyboard, ple
 
 ## Sofle Keymap
 
+### Firmware releases
+
+Download firmware from [GitHub Releases](https://github.com/skyser2003/zmk-sofle/releases).
+Push the desired commit to the `release` branch to run the tests, build all three
+images, and publish a release. The first version is `v0.1.0`; new release commits
+increment the latest version's patch number. Re-running a published commit
+preserves its existing release and assets.
+
+Use `eyelash-sofle-left.uf2` for the left half and `eyelash-sofle-right.uf2` for
+the right half. `settings-reset.uf2` is a recovery tool that clears saved settings
+and pairing. `SHA256SUMS` contains checksums for the images.
+
+To release the latest main commit: `git push origin main:release`.
+
+### Keymap and encoder
+
 Encoder direction bindings use the normal Studio keymap and persist like other
 keys. The existing encoder push button is a separate physical key. The firmware
 uses ZMK's existing sensor rotation handling for detent counting and 5 ms taps.

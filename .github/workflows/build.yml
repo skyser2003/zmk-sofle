@@ -1,7 +1,10 @@
 name: Build ZMK firmware
 on:
+  workflow_call:
   workflow_dispatch:
   push:
+    branches-ignore:
+      - release
     paths-ignore:
       - "keymap-drawer/**"
 
@@ -11,6 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: bash tests/run.sh
+      - run: python3 -m unittest discover -s tests -p 'test_*.py' -v
 
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0

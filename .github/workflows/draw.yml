@@ -2,6 +2,8 @@ name: Draw Keymap
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "config/**"
       - .github/workflows/draw.yml
@@ -15,4 +17,4 @@ jobs:
     with:
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"
       destination: "commit"
-      fail_on_error: ${{ fromJSON(true) }}
+      fail_on_error: true

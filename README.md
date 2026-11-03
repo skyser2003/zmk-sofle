@@ -35,5 +35,17 @@
 
 ## Sofle键位图
 
+### 固件发布
+
+可在 [GitHub Releases](https://github.com/skyser2003/zmk-sofle/releases) 下载固件。
+将需要发布的提交推送到 `release` 分支后，GitHub Actions 会先运行测试并构建三个固件，全部成功后再发布。
+首次版本为 `v0.1.0`，之后的新提交自动递增最新版本的补丁号。重复运行同一已发布提交时保留原有版本和文件。
+
+左半键盘使用 `eyelash-sofle-left.uf2`，右半键盘使用 `eyelash-sofle-right.uf2`。
+`settings-reset.uf2` 仅用于恢复操作，会清除已保存的设置和配对信息；`SHA256SUMS` 提供校验值。
+发布最新 main 提交的命令：`git push origin main:release`。
+
+### 键位图
+
 ![Sofle键位图](keymap-drawer/eyelash_sofle.svg)
 
